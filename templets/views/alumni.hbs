@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>alumni}}
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="home"><a href="/index"> <i class="fa-solid fa-house"> home</i></a></div>
+
+
+
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+
+        </div>
+    </header>
+    <main>
+        
+{{>profileimg}}
+
+    </main>
+
+    <script >
+
+require("./db/conn");
+const userdb = require("./models/registers")
+
+    </script>
+
+</body>
+
+</html>

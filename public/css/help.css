@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+.nav{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10px;
+    margin-bottom: 5px; */
+    background-color: #624E88;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.home {
+
+    align-items: start;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-left: 70px;
+    width: 100%;
+
+    
+    background: #624E88;
+    border: 2px solid #624E88;
+
+
+
+    transition: 0.2s ease;
+    cursor: pointer;
+    
+    /* border-radius: 50%; */
+}
+
+.home a:hover {
+    color: #000;
+}
+
+.home a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.contioner{
+    /* background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/28466-min.jpg); */
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/28466-min.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.help{
+    background: #624E88;
+    width: 40%;
+
+    border-radius: 10px;
+    height: fit-content;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+
+
+
+.help h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: azure;
+}
+
+form input, form textarea{
+
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #fff;
+    padding: 15px;
+    margin: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    color: #000;
+    font-size: 18px;
+    border-radius: 6px;    
+}
+
+.btn{
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #230234 ;   
+  
+    margin-top: 20px;
+    
+    width: fit-content;
+    border: 1px solid #624E88;
+    padding: 14px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: #230234;
+    color: #fff;
+    border:   #fff solid 5px;
+    border-radius: 10px;
+    font-size: 23px;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
